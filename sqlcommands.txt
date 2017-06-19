@@ -1,0 +1,12 @@
+port has to be 3307
+CREATE SCHEMA `shoponline` ;
+CREATE TABLE `shoponline`.`cart` (
+  `idcart` INT(11) NULL,
+  `iid` VARCHAR(45) NULL,
+  `itemname` VARCHAR(45) NULL,
+  `quantity` INT(45) NULL,
+  `Price` DOUBLE NULL,
+  `cartcol` VARCHAR(45) NULL,
+  `img` VARCHAR(100) NULL,
+  `cartcol1` VARCHAR(12) NULL,
+  PRIMARY KEY (`idcart`));
